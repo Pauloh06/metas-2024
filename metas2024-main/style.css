@@ -1,0 +1,32 @@
+@import url(https://fonts.google.com/share?selection.family=Micro+5);
+:root {
+    --cor-de-fundo:#4d1fb8;
+    --verde:#6FFF57; 
+    --branco:#FFFFFF;
+    --botao-ativo:#BC4CB1;
+    --botao-inativo:rgba(58,55,94,0.5);
+    --texto-fundo:rgba(58,55,94,0.3);
+}
+body {
+    background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 64%, rgba(125,54,196,1) 77%, rgba(188,120,255,1) 87%, rgba(255,255,255,1) 96%);
+    color: var(--branco);
+    font-family: 'chakraPetch',sans-serif;
+
+}
+.conteudo-principal { display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+.titulo-principal { text-align: left;
+    width: 100%;
+    font-size: 32px;
+    }
+
+.titulo-principal span {
+        color: var(--verde); }
